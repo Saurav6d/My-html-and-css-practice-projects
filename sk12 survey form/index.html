@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Employee Interests Survey Form</h1>
+    </header>
+    <main>
+        <form class="column-flex margin " action="">
+            <div class="name flex inp">
+                <label for="name">Enter Your Name:</label>
+                <input id="name" type="text">
+            </div>
+
+            <div class="Department flex margin inp">
+                <label for="Department">Enter Your Department:</label>
+                <input id="Department" type="text">
+            </div>
+
+            <div class="Yourself flex margin inp">
+                <label for="Yourself">Tell Us Little About Yourself:</label>
+                <textarea name="" id="Yourself" cols="40" rows="4"></textarea>
+            </div>
+
+            <div class="excercise flex margin ">
+                <h4>Do you excercise at home?</h4>
+                <input type="radio" id="yes" name="excercise" class="chlbx" >
+                <label for="yes" >Yes</label>
+                <input type="radio" id="no" name="excercise" class="chlbx" >
+                <label for="no">No</label> 
+            </div>
+
+            <div class="topics margin">
+                <h4>How do you like to read about your favourite topics?</h4>
+                <input type="checkbox" name="" id="books" class="chlbx">
+                <label for="books">Books</label>
+
+                <input type="checkbox" name="" id="Online" class="chlbx">
+                <label for="Online">Online resources</label>
+
+                <input type="checkbox" name="" id="Phone" class="chlbx">
+                <label for="Phone">Phone apps</label>
+
+                <input type="checkbox" name="" id="Magazines" class="chlbx">
+                <label for="Magazines">Magazines</label>
+            </div>
+
+            <div class="movie flex margin">
+                <h4>What genre of movie do you like?</h4>
+                <label for="films"></label>
+                <select name="" id="films">
+                    <option value="">comdey</option>
+                    <option value="">horror</option>
+                    <option value="">action</option>
+                </select>
+            </div>
+
+            <div class="submitbtn margin">
+                <button>Submit form</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>
